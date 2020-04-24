@@ -1,2 +1,6 @@
-var el = document.getElementById('knob');
-var dial = JogDial(el, {debug: true});
+var slider = document.getElementById("myRange");
+
+// Update the current slider value (each time you drag the slider handle)
+slider.oninput = function() {
+  console.log(this.value);
+};
