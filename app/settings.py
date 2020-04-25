@@ -41,7 +41,6 @@ INSTALLED_APPS = [
     'channels',
 ]
 
-ASGI_APPLICATION = "app.routing.application"
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
