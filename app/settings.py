@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'channels',
 ]
 
-ASGI_APPLICATION = "groan.routing.application"
+ASGI_APPLICATION = "app.routing.application"
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
